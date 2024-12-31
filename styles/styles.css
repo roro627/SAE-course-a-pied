@@ -1,0 +1,764 @@
+/* HTML */
+html {
+    font-family: 'Inter', sans-serif;
+    background-color: #181A1B;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.page {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro,
+.intro-decouverte,
+.intro-objectif,
+.intro-alimentaire,
+.intro-equipement {
+    margin: auto;
+}
+
+header,
+footer {
+    width: 1447px;
+    margin: auto;
+    display: block;
+}
+
+p,
+h1 {
+    color: #C9C4BD;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 40px;
+    color: #C9C4BD;
+}
+
+h3 {
+    margin: 0;
+}
+
+.titre {
+    font-size: 48px;
+    margin: auto;
+    margin-bottom: 45px;
+}
+
+.para {
+    font-size: 32px;
+}
+
+.image-contenu {
+    height: 440px;
+    width: auto;
+}
+
+.bouton-contenu a,
+.bouton-programme a {
+    text-decoration: none;
+    color: #181A1B;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.bouton-contenu {
+    background-color: #C9C4BD;
+    width: 430px;
+    height: 63px;
+    border-radius: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    height: 63px;
+    line-height: 63px;
+    margin: auto;
+}
+
+/*HEADER*/
+.header-container {
+    background-color: #181a1b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 265px;
+    height: 265px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.langue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 7.7%;
+}
+
+/* lien dans la nav */
+nav a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #C9C4BD;
+    text-transform: uppercase;
+}
+
+
+/*LANGUES*/
+
+
+#fr {
+    width: 40px;
+    height: 40px;
+}
+
+#angl {
+    width: 40px;
+    height: 40px;
+}
+
+/*BODY*/
+body {
+    margin: 0;
+}
+
+/*INTRO*/
+
+.intro,
+.debuter-intro {
+    display: flex;
+    width: auto;
+}
+
+
+.intro-txt {
+    width: 482px;
+    height: 697px;
+    margin-left: 54px;
+    padding-top: 75px;
+}
+
+.intro-txt p {
+    font-size: 32px;
+}
+
+.bouton a {
+    text-decoration: none;
+    color: #181A1B;
+    text-align: center;
+}
+
+
+.bouton {
+    background-color: #C9C4BD;
+    width: 286px;
+    height: 63px;
+    border-radius: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    height: 63px;
+    line-height: 63px;
+}
+
+
+
+.intro-img {
+    margin-right: 0;
+    height: 697px;
+}
+
+.intro-img img {
+    height: 697px;
+    width: 958px;
+}
+
+
+/*INTRO-DECOUVERTE*/
+
+.intro-decouverte {
+    display: flex;
+    width: auto;
+
+}
+
+.decouverte-txt {
+    width: 482px;
+    height: 697px;
+    margin-left: 54px;
+    padding-top: 40px;
+}
+
+.decouverte-txt h1 {
+    font-size: 48px;
+}
+
+.decouverte-txt p {
+    font-size: 32px;
+}
+
+.decouverte-img {
+    margin-right: 0;
+}
+
+.decouverte-img img {
+    width: 973.48px;
+    height: 701px;
+}
+
+
+/*INTRO-OBJECTIF*/
+
+.intro-objectif {
+    display: flex;
+    width: auto;
+
+}
+
+.objectif-txt {
+    width: 482px;
+    height: 697px;
+    margin-left: 54px;
+    padding-top: 75px;
+}
+
+.objectif-txt h1 {
+    font-size: 48px;
+}
+
+.objectif-txt p {
+    font-size: 32px;
+}
+
+.objectif-img {
+    margin-right: 0;
+}
+
+.objectif-img img {
+    width: 973.04px;
+    height: 697px;
+}
+
+/*INTRO-OBJECTIF*/
+
+.intro-alimentaire {
+    display: flex;
+    width: auto;
+
+}
+
+.alimentaire-txt {
+    width: 482px;
+    height: 697px;
+    margin-left: 54px;
+    padding-top: 75px;
+}
+
+.alimentaire-txt h1 {
+    font-size: 48px;
+}
+
+.alimentaire-txt p {
+    font-size: 32px;
+}
+
+.alimentaire-img {
+    margin-right: 0;
+}
+
+.alimentaire-img img {
+    width: 958px;
+    height: 697px;
+}
+
+/*INTRO-OBJECTIF*/
+
+.intro-equipement {
+    display: flex;
+    width: auto;
+
+}
+
+.equipement-txt {
+    width: 482px;
+    height: 697px;
+    margin-left: 54px;
+}
+
+.equipement-txt h1 {
+    font-size: 48px;
+}
+
+.equipement-txt p {
+    font-size: 32px;
+}
+
+.equipement-img {
+    margin-right: 0;
+}
+
+.equipement-img img {
+    width: 962px;
+    height: 697px;
+}
+
+
+/* INTRO DEBUTER */
+.debuter-intro {
+    flex-direction: column;
+}
+
+.debuter-intro-img img {
+    height: 433px;
+    width: 1438.88px;
+    margin-bottom: 45px;
+}
+
+.debuter-menu {
+    display: flex;
+    width: 100%;
+    height: 341px;
+    justify-content: center;
+
+}
+
+.debuter-menu img {
+    height: 341px;
+    width: 100%;
+}
+
+.debuter-menu-equipement img {
+    width: 439.58px;
+    border: 5px #181A1B solid;
+    border-right: none;
+}
+
+.debuter-menu-equipement,
+.debuter-menu-objectif,
+.debuter-menu-nutrition {
+    position: relative;
+}
+
+#bouton_img {
+    filter: opacity(80%);
+    position: absolute;
+    bottom: 10px;
+    left: 76.5px;
+    border: #181A1B 3px solid;
+}
+
+#bouton_img_mid {
+    filter: opacity(80%);
+    position: absolute;
+    bottom: 10px;
+    left: 157.5px;
+    border: #181A1B 3px solid;
+}
+
+.debuter-menu-objectif img {
+    width: 569px;
+    border: 5px #181A1B solid;
+    border-right: none
+}
+
+.debuter-menu-nutrition img {
+    width: 434px;
+    border: 5px #181A1B solid;
+    border-right: none
+}
+
+/* equipement_debutant */
+.equipement_debutant {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.txt_equipement {
+    width: 929px;
+    margin: auto;
+    text-align: justify;
+}
+
+/* acces au programme bouton */
+.bouton-programme {
+    background-color: #C9C4BD;
+    width: 400px;
+    height: 63px;
+    border-radius: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    height: 63px;
+    line-height: 63px;
+    float: right;
+    margin-top: -63px;
+    margin-right: -243px;
+}
+
+/*Programme*/
+
+.debuter-intro-img {
+    margin: auto;
+}
+
+.programme-debutant {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.patern_programme {
+    display: flex;
+    width: 1418px;
+    margin: auto;
+    justify-content: space-around;
+    margin-bottom: 48px;
+}
+
+.semaine_gauche,
+.semaine_droite {
+    width: 506px;
+    height: 510px;
+}
+
+.programme-tete {
+    background-color: #FFA24E;
+    height: 117px;
+}
+
+#h4 {
+    margin-bottom: 0;
+    font-size: 32px;
+    text-align: center;
+    line-height: 117px;
+}
+
+.programme-contenu {
+    background-color: #C9C4BD;
+    margin: 0;
+    height: 393px;
+}
+
+.programme-contenu p {
+    margin: 0;
+
+}
+
+#p-programme {
+    color: #181A1B;
+}
+.text_programme{
+    text-align: center;
+    font-size: 130%;
+}
+
+#seance {
+    font-weight: bold;
+}
+
+/* mention legale */
+
+#center{
+    text-align: justify;
+    margin: auto;
+    width: 85%;
+}
+
+/*FOOTER*/
+
+.footer-container {
+    width: auto;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.footer-img img {
+    width: 149px;
+    height: 149px;
+}
+
+.reseaux h2 {
+    text-align: center;
+}
+
+.twitter-logo img {
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+}
+
+.facebook-logo img {
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+}
+
+.insta-logo img {
+    width: 90px;
+    height: 90px;
+}
+
+.footer-mention p {
+    font-size: 24px;
+}
+
+.footer-mention a {
+    color: #C9C4BD;
+}
+
+
+
+
+@media only screen and (max-width : 768px) {
+    header {
+        width: 100%;
+    }
+    .page{
+        width: 100%;
+    }
+
+    body {
+        flex-wrap: wrap;
+    }
+
+    .header-container {
+        width: 1329px;
+        margin-bottom: 45px;
+    }
+
+    .header_element_link_img {
+        display: none;
+    }
+
+    .header_element {
+        display: inline-block;
+        width: 100%;
+    }
+
+    #premier-bouton {
+        margin-top: 200x;
+    }
+
+    #bouton {
+        background-color: #C9C4BD;
+        width: 286px;
+        height: 63px;
+        border-radius: 50px;
+        font-size: 32px;
+        font-weight: bold;
+        height: 63px;
+        line-height: 63px;
+        text-decoration: none;
+        color: #181A1B;
+        text-align: center;
+        margin-left: 260px;
+    }
+
+    .langue{
+        margin-left: 260px;
+    }
+    
+    #fr {
+        width: 75px;
+        height: 75px;
+        margin-left: 45px;
+    }
+
+    #angl {
+        width: 75px;
+        height: 75px;
+    }
+    .header_element::before {
+        content: url(../img/burger.png);
+        padding: 0 20px;
+        float: right;
+    }
+
+    .header_element .header_element_link {
+        display: none;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    .header_element:hover .header_element_link {
+        display: block;
+    }
+
+    .alimentaire-txt {
+        margin-left: 0;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #bouton_img,#bouton_img_mid{
+        left: 157.5px;
+        height : 117px;
+        line-height: 400%;
+    }
+    
+
+    header,
+    footer {
+        width: auto;
+    }
+
+    #a_logo {
+        float: left;
+    }
+
+    .intro,
+    .debuter-intro,
+    .intro-decouverte,
+    .intro-objectif,
+    .intro-alimentaire,
+    .intro-equipement,
+    .page {
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        margin-left: none;
+    }
+
+    .debuter-intro-img {
+        height: auto;
+    }
+    .image-contenu{
+        width: 100%;
+    }
+
+    
+
+    h1 {
+        margin-top: 0;
+    }
+
+    .intro-txt,
+    .decouverte-txt,
+    .objectif-txt,
+    .alimentaire-txt,
+    .equipement-txt {
+        height: auto;
+        margin-left: 0px;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        text-align: center;
+    }
+
+    .bouton {
+        margin: auto;
+    }
+
+    .intro,
+    .intro-objectif,
+    .intro-equipement {
+        display: flex;
+        width: auto;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+
+    .debuter-menu{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: stretch;
+        justify-content: flex-start;
+        align-items: center;
+        height: auto;   
+    }
+   
+    .debuter-menu img{
+        width : 600px;
+        height: 600px;
+        object-fit: cover;
+        border: solid black 2px;
+    }
+
+    .debuter-menu{
+        margin-bottom: 30px;
+    }
+
+    .txt_equipement{
+        width : 1275px;
+    }
+    .bouton-contenu, .bouton-programme a{
+       line-height: 400%;
+    }
+    .bouton-contenu, .bouton-programme{
+        width: 450px;
+        height: 130px;
+    }
+
+    .bouton-programme{
+        margin-top: -130px;
+        margin-right: -75px;
+    }
+    .programme-debutant {
+        margin: 0;
+    }
+    
+    .programme-debutant h1{
+        text-align: center;
+        margin-left: 549px;
+    }
+
+    /*footer*/
+    .footer-container {
+        width: 900px;
+        height: 250px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+
+
+    .twitter-logo img {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+
+    .facebook-logo img {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+
+    .insta-logo img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo-footer {
+        text-align: center;
+    }
+
+
+
+}
